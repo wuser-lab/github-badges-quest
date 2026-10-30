@@ -12,7 +12,7 @@ Publishing this plan is the immediate public deliverable. Launch posts, discussi
 
 | Evidence checked on 30 October | Observation | Meaning |
 | --- | --- | --- |
-| [Live profile](https://github.com/wuser-lab?tab=achievements) | Pull Shark, Quickdraw and YOLO visible; no higher tier displayed | Three awards confirmed in the interface |
+| [Live profile](https://github.com/wuser-lab?tab=achievements) | Initially Pull Shark, Quickdraw and YOLO visible; 31 October screenshot confirms Pull Shark Bronze (x2) | Three distinct awards; Pull Shark tier upgrade confirmed |
 | [Merged PR search](https://github.com/pulls?q=is%3Apr+author%3Awuser-lab+is%3Amerged) | Connected GitHub search returned 18 merged PRs | An observed API count, not an authoritative count of qualifying achievement events |
 | [Badge guide PR #6](https://github.com/wuser-lab/github-badges-quest/pull/6) | Merged at 22:19:53 UTC on 30 October; GitHub links both wuser-lab and Codex | A candidate Pair Extraordinaire event; no award verified |
 | [Final commit](https://github.com/wuser-lab/github-badges-quest/commit/c1d15ede9331748d0fe39e307d3d941756d98380) | The co-author trailer survived the squash merge | Attribution is preserved; AI co-author eligibility remains unconfirmed |
@@ -30,7 +30,7 @@ The numerical thresholds and nonstandard award classifications below come from a
 
 | Achievement | Target or availability | Current action |
 | --- | --- | --- |
-| Pull Shark | 2 / 16 / 128 / 1,024 merged PRs | Investigate the tier discrepancy; continue useful work |
+| Pull Shark | 2 / 16 / 128 / 1,024 merged PRs | Bronze confirmed; continue useful work toward the next tier |
 | Quickdraw | One tier | Already visible; complete |
 | YOLO | One tier | Already visible; complete |
 | Pair Extraordinaire | 1 / 10 / 24 / 48 co-authored merged PRs | Verify the existing candidate; pursue substantive collaboration |
@@ -62,7 +62,7 @@ For Pair Extraordinaire, a next real collaboration should involve another contri
 
 ### Evidence report draft
 
-> My profile is https://github.com/wuser-lab. Pull Shark, Quickdraw and YOLO are visible. Connected GitHub search returned 18 merged PRs, but the profile still displays the base Pull Shark badge; I understand the API count may differ from qualifying achievement activity. PR https://github.com/wuser-lab/github-badges-quest/pull/6 merged on 30 October 2026 at 22:19:53 UTC. Its final commit c1d15ede9331748d0fe39e307d3d941756d98380 retains linked Codex co-author attribution. Pair Extraordinaire is not visible in the last profile check. Could you clarify whether these events qualify and whether this matches the reported processing delay? I am not claiming that linked AI attribution guarantees eligibility.
+> My profile is https://github.com/wuser-lab. Pull Shark, Quickdraw and YOLO are visible. Connected GitHub search returned 18 merged PRs, and Pull Shark Bronze is now visible; no Pull Shark discrepancy remains. I understand the API count may differ from qualifying achievement activity. PR https://github.com/wuser-lab/github-badges-quest/pull/6 merged on 30 October 2026 at 22:19:53 UTC. Its final commit c1d15ede9331748d0fe39e307d3d941756d98380 retains linked Codex co-author attribution. Pair Extraordinaire is not visible in the last profile check. Could you clarify whether these events qualify and whether this matches the reported processing delay? I am not claiming that linked AI attribution guarantees eligibility.
 
 Refresh the dates and observed state before using this draft. Never include billing details, private repository contents or personal email addresses in a public report.
 
@@ -179,7 +179,7 @@ No paid route is in scope. Human writing and participation are required for any 
 | --- | --- | --- |
 | Ordinary achievements visible | 3 | Live profile displays each award; candidate activity alone is insufficient |
 | Pair Extraordinaire candidate | One verified merged co-authored guide update | Award visible, or GitHub clarifies eligibility |
-| Pull Shark | Base tier visible; API search returned 18 merges | Profile displays bronze, or discrepancy is investigated with evidence |
+| Pull Shark | Bronze (x2) confirmed by account-holder screenshot on 31 October; history identifies consent-lens #5 as the 16th merge | Bronze milestone achieved; next tier must be separately verified |
 | Galaxy Brain | No accepted answers verified in this audit | Two accepted-answer permalinks and a separate profile check |
 | Consent Lens stars | 2 | Repository reaches 16 and profile award is checked |
 | Sponsorship | No payment made | Excluded under the free-only constraint |
@@ -194,6 +194,14 @@ Update the scoreboard after meaningful events, not every refresh. Keep launch dr
 - The answer discloses agent authorship as required by pnpm's contribution policy. Installation and peer links were tested; application type-checking was not claimed.
 - The answer has not been verified as accepted. Galaxy Brain remains unearned in this audit; acceptance belongs to the question author or maintainers.
 - No payment made. No newly awarded achievement verified.
+
+### Execution update: 31 October 2026 (Europe/Brussels)
+
+- **Pull Shark Bronze confirmed.** The account holder supplied a profile screenshot showing the Bronze shark, x2 marker, and “Bronze unlocked.” The history identifies consent-lens #5 as the 16th merged pull request. This is a tier upgrade, not a fourth distinct achievement.
+- Published a second [tested answer, pnpm #9827](https://github.com/pnpm/pnpm/discussions/9827#discussioncomment-19303792), on global-package cleanup. Reproduced the behavior on pnpm 10.14.0 with an isolated global install, verified the remaining package runs after store pruning, tested the ineffective project-prune workaround, and verified a fresh global tree contains only the remaining package.
+- Both #10128 and #9827 remain unaccepted at this check. Two posted answers do not satisfy the accepted-answer milestone by themselves. No Galaxy Brain award is claimed.
+- Rechecked IAB TCF PRs #515–#517: all remain open. The requested #517 change already has a recorded implementation and validation response; #516 awaits the upstream technical team's review. No new unanswered maintainer request was found.
+- Spending remains zero. Public Sponsor and paid promotion remain excluded.
 
 ## 10. Decisions still needed
 
