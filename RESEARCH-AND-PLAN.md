@@ -4,7 +4,7 @@ Prepared for [wuser-lab](https://github.com/wuser-lab), 30 October 2026 (Europe/
 
 ## Recommended outcome
 
-Work toward the seven ordinary profile achievements through useful contributions, a focused Consent Lens launch, and optional public sponsorship. Keep Finishing Touch as a research item until an accessible qualifying route is established. Retired, disabled and staff-only awards are outside the achievable target.
+**Budget: free only, as requested by the account holder. No payments, paid promotion, or sponsorship purchases.** Work toward the six ordinary achievements available without spending through useful contributions and a focused Consent Lens launch. Keep Finishing Touch as a research item until an accessible qualifying route is established. Retired, disabled and staff-only awards are outside the achievable target.
 
 Publishing this plan is the immediate public deliverable. Launch posts, discussion answers, support submissions and payments are separate actions; the schedule below does not mean they have happened or will run automatically.
 
@@ -36,7 +36,7 @@ The numerical thresholds and nonstandard award classifications below come from a
 | Pair Extraordinaire | 1 / 10 / 24 / 48 co-authored merged PRs | Verify the existing candidate; pursue substantive collaboration |
 | Galaxy Brain | 2 / 8 / 16 / 32 accepted answers | Build a queue of questions where a tested answer adds value |
 | Starstruck | 16 / 128 / 512 / 4,096 stars on one repository | Focus on Consent Lens, starting at 2 |
-| Public Sponsor | One tier | Optional public sponsorship after recipient and budget approval |
+| Public Sponsor | One tier | Excluded: the account holder requested free-only activity |
 | Finishing Touch | Catalogue describes GitHub UI quality contributions | No accessible public qualification route verified; no delivery promise |
 | Arctic Code Vault Contributor | Retired | Exclude |
 | Mars 2020 Contributor | Retired | Exclude |
@@ -70,7 +70,7 @@ Refresh the dates and observed state before using this draft. Never include bill
 
 Owner: account holder for each published answer; Codex can research and reproduce. Planning budget: two 45-minute triage sessions and up to two hours of reproduction work per week. Goal: two independently accepted answers, with no guaranteed response date.
 
-Start with [Vite Q&A](https://github.com/vitejs/vite/discussions/categories/q-a) and [Vitest Q&A](https://github.com/vitest-dev/vitest/discussions/categories/q-a). Vite is a direct project dependency; Vitest is an adjacent testing community. Prefer questions about project-path deployment, static assets, browser test behavior and reproducible JavaScript failures.
+Use [pnpm Q&A](https://github.com/orgs/pnpm/discussions/categories/q-a) for suitable questions about reproducible dependency and workspace behavior. Its [AI contribution policy](https://github.com/pnpm/pnpm/blob/main/CONTRIBUTING.md#ai-assisted-contributions) permits vetted agent contributions and requires disclosure naming the agent and model. Read the whole thread, reproduce the behavior, and skip duplicate solutions. Vite's [AI policy](https://github.com/vitejs/vite/blob/main/CONTRIBUTING.md#ai-policy) prohibits having an LLM speak for you in public posts; do not submit agent-written Vite replies or showcases.
 
 GitHub explicitly disabled achievements in its own Community Discussions on 6 February 2024; the announcement says other projects and communities are unaffected. Use Community only for appropriate GitHub feedback, not as the Galaxy Brain work queue. [Staff announcement](https://github.com/orgs/community/discussions/106536).
 
@@ -114,7 +114,7 @@ The concrete audience is developers comparing consent signals, CMP implementers 
 ### Public distribution sequence
 
 1. Keep this sourced plan public in the existing badge repository.
-2. After the readiness checks, prepare one project-relevant post for [Vite's Show and tell category](https://github.com/vitejs/vite/discussions/categories/show-and-tell), which was present in the live discussion index. Read current category rules and the code of conduct before posting; the category's existence does not guarantee moderator approval.
+2. Find an audience whose rules allow the actual form of contribution. Vite is excluded from agent-written promotion under its AI policy. The draft below is a reference for a future permitted destination, not a submission queued for Vite.
 3. Ask for feedback on the export and review workflow. Link the running demo first and the public source second. Respond with concrete fixes or explanations.
 4. If useful feedback produces a meaningful release, publish a changelog update and one follow-up in the original thread. Do not repost the same announcement across unrelated Q&A threads.
 5. Record stars at launch, after seven days and after fourteen days. Also record actionable feedback and confirmed workflow trials. Avoid adding tracking to sensitive consent inputs just to measure promotion.
@@ -141,13 +141,9 @@ This draft was prepared with Codex assistance using the project's documented beh
 - **Hacker News:** Show HN fits a runnable demo, but the current HN guidelines prohibit generated posts and automated posting. A future submission would need the account holder's own writing and manual participation. This draft is not intended for HN. [Show HN rules](https://news.ycombinator.com/showhn.html); [HN guidelines](https://news.ycombinator.com/newsguidelines.html).
 - **DEV:** Disclosure alone is insufficient. Its AI guidelines restrict promotional and clout-seeking AI articles and prohibit generated comments. Do not post this badge-driven launch draft there. A future technical article would need a genuinely educational purpose, the author's understanding and compliance with the then-current rules. [DEV AI guidelines](https://dev.to/guidelines-for-ai-assisted-articles-on-dev).
 
-## 6. Public Sponsor: optional, bounded and reviewable
+## 6. Public Sponsor: excluded by the free-only constraint
 
-A concrete candidate is [Anthony Fu's GitHub Sponsors page](https://github.com/sponsors/antfu?frequency=one-time). The official [Vite team page](https://vite.dev/team) lists him as a core contributor, and Vite is a direct Consent Lens dependency. The inspected sponsor page offers a custom one-time amount.
-
-Proposal only: a one-time payment with a maximum total of US$5, if accepted by checkout and explicitly approved by the account holder. No payment is authorized by this plan. If fees, tax or a recipient minimum would exceed the approved total, stop and revise the proposal.
-
-At checkout verify the paying account is wuser-lab, frequency is one-time and visibility is public. Review the recipient, final total and payment details before completing. Store the receipt privately, then verify the award on the live profile. Do not publish billing data. GitHub documents one-time and recurring choices and a sponsorship visibility choice. [Official sponsorship instructions](https://docs.github.com/en/sponsors/sponsoring-open-source-contributors/sponsoring-an-open-source-contributor-through-github).
+The account holder requested free-only activity. No sponsorship payment was made. Public Sponsor is outside this execution plan because it requires spending. Do not reopen checkout, buy stars, buy promotion, or incur paid services to pursue achievements.
 
 ## 7. Useful contribution queue and higher tiers
 
@@ -175,7 +171,7 @@ This is a proposed 28-day work schedule beginning 31 October 2026. It is not an 
 | 14–20 November | Make a release responding to real feedback; continue relevant Q&A | Repeatable demo and seven-day growth reading |
 | 21–27 November | Review fourteen-day growth, actual awards and effort spent | Continue, revise audience, or close low-value work |
 
-Public sponsorship can be completed separately once the recipient and final spending cap are approved. Human writing and participation are required for any future HN activity. External public posts should be reviewed in their exact destination before submission.
+No paid route is in scope. Human writing and participation are required for any future HN activity. External public posts should be reviewed in their exact destination before submission.
 
 ## 9. Scoreboard and definition of done
 
@@ -186,14 +182,21 @@ Public sponsorship can be completed separately once the recipient and final spen
 | Pull Shark | Base tier visible; API search returned 18 merges | Profile displays bronze, or discrepancy is investigated with evidence |
 | Galaxy Brain | No accepted answers verified in this audit | Two accepted-answer permalinks and a separate profile check |
 | Consent Lens stars | 2 | Repository reaches 16 and profile award is checked |
-| Sponsorship | No new sponsorship executed | Approved public one-time sponsorship and live award verification |
+| Sponsorship | No payment made | Excluded under the free-only constraint |
 | Public launch | Draft only | Actual post URL plus launch-readiness record |
 | Finishing Touch | Public qualification route unverified | Credible qualifying route established before any execution promise |
 
-Update the scoreboard after meaningful events, not every refresh. Keep launch drafts and planned tasks visibly separate from completed actions. A realistic success target is the seven ordinary achievements over time; eight cannot be promised while Finishing Touch access is unresolved, and all fifteen cannot be acquired through ordinary new activity.
+Update the scoreboard after meaningful events, not every refresh. Keep launch drafts and planned tasks visibly separate from completed actions. A realistic free-only target is six ordinary achievements over time; eight cannot be promised while Finishing Touch access is unresolved, and all fifteen cannot be acquired through ordinary new activity.
+
+### Execution update: 30 October 2026
+
+- Published a [tested answer to pnpm #10128](https://github.com/pnpm/pnpm/discussions/10128#discussioncomment-19303718). Reproduced all three workspace peer-resolution cases on pnpm 10.17.0 / Node 22.14.0, with bun-types 1.2.22, then verified an explicit root React-types dependency resolves the mismatch while preserving the child package's React 18 types.
+- The answer discloses agent authorship as required by pnpm's contribution policy. Installation and peer links were tested; application type-checking was not claimed.
+- The answer has not been verified as accepted. Galaxy Brain remains unearned in this audit; acceptance belongs to the question author or maintainers.
+- No payment made. No newly awarded achievement verified.
 
 ## 10. Decisions still needed
 
-Only decisions that affect execution remain: the license choice if the source is to be offered under an open-source license; approval of a specific sponsor and final spending cap; and review of the exact external post or answer before submission. Research, public-plan publication and preparation do not require those decisions.
+Only decisions that affect execution remain: the license choice if the source is to be offered under an open-source license; destination-specific compliance for any future showcase. Research, public-plan publication and preparation do not require those decisions.
 
 All sources were checked on 30 October 2026. Recheck changing community rules and live thread state immediately before external publication. This plan intentionally contains only public project information and public account activity.
