@@ -35,6 +35,13 @@ For a squash merge, keep the trailer in the final commit message. This update cr
 
 The community-maintained thresholds are 2, 16, 128 and 1,024 merged pull requests. The live profile is the authority on the awarded tier.
 
+## PR tracking runner
+
+The [resumable runner](docs/pr-automation.md) provides strict account counting,
+saved progress, JSON request encoding, and verified merges. It creates clearly
+labelled automated tracking entries in this repository. Reaching an API count
+does not prove that GitHub has awarded a badge.
+
 ## Sources
 
 - [GitHub: profile and achievement reference](https://docs.github.com/en/account-and-profile/reference/profile-reference)
