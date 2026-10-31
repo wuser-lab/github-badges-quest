@@ -179,6 +179,23 @@ class ResumeTests(unittest.TestCase):
         state["observed_count"] = 37
         self.assertEqual(runner.verified_count(state), 37)
 
+    def test_merges_outside_the_run_update_the_verified_floor(self):
+        state = runner.new_state("owner/quest", VIEWER)
+        runner.observe_count(state, 36)
+        state["merged"].append({"number": 22})
+        self.assertEqual(runner.verified_count(state), 37)
+        runner.observe_count(state, 37)
+        self.assertEqual(runner.verified_count(state), 37)
+
+    def test_pending_merge_is_reconciled_before_changing_the_floor(self):
+        state = pending_state()
+        runner.observe_count(state, 36)
+        self.assertEqual(state["baseline"], 35)
+        state["merged"].append({"number": 22})
+        state["pending"] = None
+        runner.observe_count(state, 36)
+        self.assertEqual(runner.verified_count(state), 36)
+
 
 class LocalGitTests(unittest.TestCase):
     def test_prepare_commit_preserves_dirty_working_tree_and_index(self):

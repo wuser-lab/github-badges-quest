@@ -130,6 +130,14 @@ def verified_count(state):
                count_value(state["baseline"]) + len(state["merged"]))
 
 
+def observe_count(state, value):
+    state["observed_count"] = count_value(value)
+    # Include merges made outside this run. A pending PR may already be merged
+    # remotely after a lost response, so reconcile it before adjusting this floor.
+    if state["pending"] is None:
+        state["baseline"] = max(state["baseline"], value - len(state["merged"]))
+
+
 def new_state(repo, viewer):
     count = count_value(viewer["pullRequests"]["totalCount"])
     return {
@@ -253,7 +261,7 @@ def run_loop(api, root, state, save, target, interval, max_merges):
             viewer = api.viewer()
             if viewer["login"] != state["login"]:
                 raise ValueError("Authenticated account changed; refusing to continue")
-            state["observed_count"] = count_value(viewer["pullRequests"]["totalCount"])
+            observe_count(state, viewer["pullRequests"]["totalCount"])
             save()
             # Never leave a created PR behind just because the account count changed.
             if not state["pending"]:
@@ -332,7 +340,7 @@ def main(argv=None):
             if state["version"] != 1 or state["repo"] != repo or state["login"] != viewer["login"]:
                 raise ValueError("Saved progress belongs to a different account or repository")
             count_value(state["baseline"])
-            state["observed_count"] = count_value(viewer["pullRequests"]["totalCount"])
+            observe_count(state, viewer["pullRequests"]["totalCount"])
             state["target"] = args.target
             save = lambda: save_state(path, state)
             save()
