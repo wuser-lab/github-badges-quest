@@ -2,24 +2,27 @@
 
 A small guide to the next achievements for [@wuser-lab](https://github.com/wuser-lab).
 
-## Starting point
+## Verified status — 4 November 2026
 
-The profile showed these three achievements on 30 October 2026, before this guide update:
+The owner-supplied screenshot and live profile both show four distinct achievements:
 
-- [x] Pull Shark
-- [x] Quickdraw
-- [x] YOLO
+- [x] Pull Shark — x3, Silver
+- [x] Pair Extraordinaire — base award
+- [x] Quickdraw — earned; no tier ladder
+- [x] YOLO — earned; no tier ladder
 
-[Check the live achievements page](https://github.com/wuser-lab?tab=achievements) for current awards and tiers. GitHub awards achievements automatically; a qualifying contribution is not proof that a badge has appeared.
+[Check the live achievements page](https://github.com/wuser-lab?tab=achievements) for actual awards. A merged-PR API count does not establish an awarded tier. The next Pull Shark tier is Gold, but it is not claimed here.
 
 ## Next targets
 
-| Achievement | What to do | What is needed |
+| Achievement | Next milestone | Current evidence |
 | --- | --- | --- |
-| Pair Extraordinaire | Co-author a commit in a pull request that gets merged. | A real shared contribution and correctly linked co-author credit. This guide is a candidate contribution. |
-| Galaxy Brain | Have two discussion answers marked as accepted. | Helpful answers in eligible repository Q&A discussions. GitHub's own Community Discussions no longer award achievements. |
-| Starstruck | Create a repository that reaches 16 stars. | Other people finding and starring a useful project. |
-| Public Sponsor | Publicly sponsor an open-source contributor through GitHub Sponsors. | A separate choice of recipient and payment amount. |
+| Pair Extraordinaire | Bronze: 10 qualifying co-authored merged PRs, according to the community catalogue. | Base award verified; qualifying event count has not been audited. Credit only actual contributions. |
+| Galaxy Brain | Two accepted answers in eligible repository discussions. | Existing pnpm answers #10128 and #9827 were both still unaccepted on 4 November. Acceptance belongs to the question author or maintainers. |
+| Starstruck | One created repository reaches 16 stars, according to the community catalogue. | Consent Lens has 2 stars as of 4 November; 14 more would reach the reported threshold. |
+| Pull Shark | Gold: 1,024 qualifying merged PRs, according to the community catalogue. | Silver is visible. A previous search count above 1,024 has not established a Gold award. |
+
+The scope remains free-only. Public Sponsor requires a separate spending decision and is not an active target. The account holder's minimal profile README stays unchanged.
 
 ## Preserve co-author credit
 
