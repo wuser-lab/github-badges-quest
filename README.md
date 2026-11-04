@@ -40,6 +40,10 @@ The community-maintained thresholds are 2, 16, 128 and 1,024 merged pull request
 
 ## PR tracking runner
 
+For existing coauthored work, use the [Pair Extraordinaire helper](docs/pair-progress.md).
+It audits both accounts and can merge checked PRs in owned repositories while
+preserving the original commits and author credit.
+
 The [resumable runner](docs/pr-automation.md) provides strict account counting,
 saved progress, JSON request encoding, and verified merges. It creates clearly
 labelled automated tracking entries in this repository. Reaching an API count
